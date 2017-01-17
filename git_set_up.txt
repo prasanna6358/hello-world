@@ -1,0 +1,12 @@
+mkdir test
+cd test
+virtualenc venv
+source venv/bin/activate
+mkdir src
+cd src
+touch READ.md
+git init
+git add READ.md
+git commit -m "first commit"
+git remote add origin https://github.com/chandrasekhar0722/work.git
+git push -u origin master
