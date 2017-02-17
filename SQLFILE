@@ -1,0 +1,18 @@
+http://www.1keydata.com/sql/sql-datepart.html
+
+datepart	abbreviation
+year	             yy, yyyy
+quarter	           qq, q
+month	             mm, m
+dayofyear	         dy, y
+day	               dd, d
+week	             wk, ww
+hour	             hh
+minute	           mi, n
+second	           ss, s
+millisecond	       ms
+microsecond	       mcs
+nanosecond	       ns
+TZoffset	         tz
+ISO_WEEK	         isowk, isoww
+
