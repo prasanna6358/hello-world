@@ -1,0 +1,263 @@
+Mv :- rename and The mv command is used to move or rename files 
+
+tar -xf archive.tar Extract files
+
+sudo mv -v source directory destination directory moving files 
+
+ls :-list the folders
+ 
+pwd : Print the current Directory
+
+whoami : Gives ID
+
+sudo : to execute a command as another user.
+
+cp copy files in same directory
+
+find :- finds files in  directory ----- Ex:-find . -name testfile.txt
+find /home -name '*.jpg  # find /home -iname tecmint.txt
+ -type f -name "*.java"
+
+grep :- To get html matched lines Ex:- grep “words”
+
+chown :- giving permisson to read and write for a file   Ex: chown filename
+
+kill :- kill [-s] [-l] %pid   sends a signal to a process kill -l
+
+sudo apt-get
+
+mkdir,rmdir:- create a directory , remove a directort
+
+chmod:- is used for change the permissons of a file for user,groups,othere
+r-read,w-write.x-execute
+chmod u=rwx,g=rx,o=r myfile
+
+
+nautilus is a linux command to open a  file 
+Example:- nautilus  filedirectory 
+
+cat command is used for opening the contents of a file
+~/Prasannakumar$ cat ~/.ssh/id_rsa.pub
+
+Debian, Ubuntu: APT:-
+apt-get install ${packagename}
+apt-get remove ${packagename}
+apt-get update; apt-get upgrade  
+
+http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/s3/model/CopyObjectRequest.html
+
+Fedora, Red Hat:
+yum install ${packagename}
+yum remove ${packagename} 
+yum update ${packagename}
+
+
+/usr/local/bin/idea
+
+python@root-desktop:~$ export JAVA_HOME=/usr/local/java-current
+python@root-desktop:~$ export PATH=$PATH:$JAVA_HOME/bin/
+
+$ sudo apt-get install maven
+https://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/
+mvn archetype:generate -DgroupId=kumar 
+                    -DartifactId=prasanna      -DarchetypeArtifactId=maven-archetype-quickstart                 -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId={project-packaging}
+   -DartifactId={project-name}
+   -DarchetypeArtifactId=maven-archetype-quickstart
+   -DinteractiveMode=false
+Apache Maven is an advanced build tool to support the developer at the whole process of a software project. Typical tasks of a build tool are the compilation of source code, running the tests and packaging the result into JAR_ files. In additional to these typical build capabilities, Maven can also perform related activities, e.g., create web sites, upload build results or generate reports.
+
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+  if we want to compile chagnge the directory where that app is available
+and then linux command 
+mvn package :- it will compile  and then generated  .class file and .jar file
+and then Execute the jar file using lunux command
+mvn exec:java -Dexec.mainClass="packagename.mainClassname"
+
+Your identification has been saved in /home/python/Prasannakumar/.ssh/id-rsa.
+Your public key has been saved in /home/python/Prasannakumar/.ssh/id-rsa.pub.
+
+SHA256:S8NAKsb0BN7pDlTPPgzV1pHKqtza8k/0D5/edoJ2faU python@root-desktop
+
+The key's randomart image is:
++---[RSA 2048]----+
+|  o.o o. ..o     |
+| + = B  o o      |
+|  * * +o .       |
+| o o + oo        |
+|  . . +.S        |
+|   o  .+ +      .|
+|   ..o  o o  . o.|
+|    +...   +ooE +|
+|    .+o..  o=o.o.|
++----[SHA256]-----+
+
+
+   inet 192.168.10.51/24 brd 192.168.10.255 scope global eth0
+
+https://www.maketecheasier.com/generate-public-private-ssh-key/
+
+https://www.howtoforge.com/linux-basics-how-to-install-ssh-keys-on-the-shell
+
+
+
+
+
+
+Private RSA Key
+Strength: 2048 bits
+
+Algorithm:	RSA
+Size:	2048
+
+Fingerprints
+
+SHA1:	            EE 38 30 C6 DD FE 91 58 7C 94 37 C1 DE 3F 39 7F 5A E3 24 AF
+SHA256:	DF F1 AE A5 00 D9 DB 8B 5F 99 6A 51 4B 2A C2 94 C8 F9 72 37 1E C2 55 8D 69 81 73 6B 09 23 E2 A9
+
+
+The Public Key is what its name suggests - Public. It is made available to everyone via a publicly accessible repository or directory. On the other hand, the Private Key must remain confidential to its respective owner. 
+
+Because the key pair is mathematically related, whatever is encrypted with a Public Key may only be decrypted by its corresponding Private Key and vice versa. 
+For example, if Bob wants to send sensitive data to Alice, and wants to be sure that only Alice may be able to read it, he will encrypt the data with Alice's Public Key. Only Alice has access to her corresponding Private Key and as a result is the only person with the capability of decrypting the encrypted data back into its original form.
+SHA256:aFIsh7iDnsXYDg6YkYs/fkzk31UxQhF83Xm4u26+7fE prasanna6358@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|         o+o . o.|
+| . . o    o + o.o|
+|o . o +    o o ..|
+|o=+..+ .    . .  |
+|Boo*. o S  .   . |
+|+.=.oo    .   .  |
+| +o+ . . .     o |
+| . .o . .     o.o|
+|  ..         ++oE|
++----[SHA256]-----+
+
+
+https://help.github.com/articles/connecting-to-github-with-ssh/
+
+
+Your identification has been saved in /home/python/Prasannakumar/billa/.ssh.
+Your public key has been saved in /home/python/Prasannakumar/billa/.ssh.pub.
+The key fingerprint is:
+SHA256:rRO6tEKCwSwGDpyWSjpl5uuqTKSAzotD9eShm3IhI4M python@root-desktop
+The key's randomart image is:
++---[RSA 2048]----+
+|. o              |
+|o*+              |
+|@=               |
+|B=.. o   .       |
+|*=..= . S .      |
+|E+oo.o . o       |
+|+*oo+ o o        |
+|=.o+.. o .       |
+|==o  .o          |
++----[SHA256]-----+
+
+
+~/Prasannakumar$ nautilus ~/.ssh  $billa password
+ssh-rsa
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDkUGQHgv2FTsJga/AJXLyG8CEDEuPge+M51n3WnUmoUCF5Q46CnL8HANbIGxVQVbv6fKDbg/y/Eqguoib66qyZeMj5UEW0s/39WvhhmiXv0hA9cyP8wd6n40wQGR8QhmnEGxg8YpNH4L4cR1h7bZcjQwfDwGgjP+ENNmitTugYM/rG3kBtCYk4HQq6Jn1UIMmHpaCX+zQc3xhXEnJM3V4UxSCnq638QqfUMQO8zEgtSts1LhnkC9xlkz4Jv6B17YBAVQaRqPDaQKdoaljnDStdMXC1OTz1qEu880G7A4ZtIIeJe0+ao9zo6krCxJi5I0FxYAQ/C92oFnkJPaNqQVVP python@root-desktop
+
+
+:~/Prasannakumar$ cat ~/.ssh/id_rsa.pub
+
+mvn clean compile
+mvn package
+mvn exec:java -Dexec.mainClass="springLearn.App"
+
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
+
+1 Installing Git for Linux
+Download and install Git for Linux :
+sudo apt-get install git
+ 
+2 Configuring GitHub
+Once the installation has successfully completed, the next thing to do is to set up the configuration details of the GitHub user. To do this use the following two commands by replacing "user_name" with your GitHub username and replacing "email_id" with your email-id you used to create your GitHub account.
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+The following image shows an example for my configuration with my "user_name" being "akshaypai" and my "email_id" being "abc123@gmail.com"
+
+ 
+3 Creating a local repository
+Create a folder in your system. This will serve as a local repository which will later be pushed onto the GitHub website. Use the following command:
+git init Mytest
+If the repository is created successfully, then you will get the following line:
+Initialized empty Git repository in /home/akshay/Mytest/.git/
+This line may vary depending on your system.
+So here, Mytest is the folder that is created and "init" makes the folder a GitHub repository. Change the directory to this newly created folder:
+cd Mytest
+ 
+4 Creating a README file to describe the repository
+Now create a README file and enter some text like "this is a git setup on linux". The README file is generally used to describe what the repository contains or what the project is all about. Example:
+gedit README
+You can use any other text editors. I use gedit. The content of the README file will be:
+This is a git repo
+ 
+5 Adding repository files to an index
+This is an important step. Here we add all the things that need to be pushed onto the website into an index. These things might be the text files or programs that you might add for the first time into the repository or it could be adding a file that already exists but with some changes (a newer version/updated version).
+Here we already have the README file. So, lets create another file which contains a simple C program and call it sample.c. The contents of it will be:
+ 
+#include<stdio.h>
+int main()
+{
+printf("hello world");
+return 0;
+}
+So, now that we have 2 files
+README and sample.c
+add it to the index by using the following 2 commands:
+git add README
+git add smaple.c
+Note that the "git add" command can be used to add any number of files and folders to the index. Here, when I say index, what I am refering to is a buffer like space that stores the files/folders that have to be added into the Git repository.
+6 Committing changes made to the index
+Once all the files are added, we can commit it. This means that we have finalized what additions and/or changes have to be made and they are now ready to be uploaded onto our repository. Use the command :
+git commit -m "some_message"
+"some_message" in the above command can be any simple message like "my first commit" or "edit in readme", etc.
+7 Creating a repository on GitHub
+Create a repository on GitHub. Notice that the name of the repository should be the same as the repository's on the local system. In this case, it will be "Mytest". To do this login to your account on https://github.com. Then click on the "plus(+)" symbol at the top right corner of the page and select "create new repository". Fill the details as shown in the image below and click on "create repository" button.
+
+Once this is created, we can push the contents of the local repository onto the GitHub repository in your profile. Connect to the repository on GitHub using the command:
+Important Note: Make sure you replace 'user_name' and 'Mytest' in the path with your Github username and folder before running the command!
+git remote add origin https://github.com/user_name/Mytest.git
+ 
+8 Pushing files in local repository to GitHub repository
+The final step is to push the local repository contents into the remote host repository (GitHub), by using the command:
+git push origin master
+Enter the login credentials [user_name and password] .
+The following image shows the procedure from step 5 to step 8
+
+So this adds all the contents of the Mytest folder (my local repository) to GitHub. For subsequent projects or for creating repositories, you can start off with step 3 directly. Finally, if you login to to your GitHub account and click on your Mytest repository, you can see that the 2 files README and sample.c have been uploaded and are visible to all as shown in the follwoing image.
+
+if we changed or edited some files in local then we have to add and then commit and then pull request and then merge in local file and then push the changes to the branch what ever you want.
+Gedit filename
+git add origin 
+git commit -m “Some Message”
+git pull origin master(or)branchname – now changes are effected so we have it merge manually.
+Then will again do a pull request, after that we can push to branch or master.
+Now we have to add chnged file i.e git add filename the file that we merged
+git add filename
+git commit -m “somemessage”
+Git push origin master(or)branchname 
+
+
+To cache the git password for an hour period
+git config --global credential.helper "cache --timeout=3600"
+
+To have your prompt display the branch you are at in git add following at the end of your ~/.bashrc
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+git log
+
+git status
+
+git log -n2 last two previos committed details
+
+git diff show the files directory that u have been changed
+
+git diff filename  --shows the difference between from the file previously existed and the same file u edited.
