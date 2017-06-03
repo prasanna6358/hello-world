@@ -1,0 +1,12 @@
+CREATE TABLE Persons (
+    ID int NOT NULL PRIMARY KEY,
+    Name varchar(255) NOT NULL,
+    Password varchar(255),
+    Age int
+);
+
+CREATE SEQUENCE   ID_SEQUENCE
+START with 1
+increment by 1;
+
+
